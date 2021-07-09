@@ -1,0 +1,70 @@
+Sorting and Searching
+algorithms is incredibly valuable, as many at .
+
+é ‘ in g
+Anema ape 4 approach is therefore to run through the different
+
+Us. tweaks of the well-known algorithms. A goo!
+see if one applies particularly well. : :
+
+i ion: Given a very large array of Pers a
+For example, suppose you are asked the following question: Gi on Object,
+
+ 
+
+ 
+
+increasing order of age.
+We're given two interesting bits of knowledge here:
+
+1. It’s a large array, so efficiency is very important.
+
+2. Weare sorting based on ages, so we know the values are in a small range.
+we might notice that bucket sort (or radix sort) woulg b
+
+ 
+
+ 
+
+By scanning through the various sorting algorithms, - aah
+for this algorithm. In fact, we can make the buckets small (just 1 year each) and get (n) running time.
+
+> Common Sorting Algorithms
+Learning (or re-learning) the common sorting algorithms is a great way to boost your performance. g; the §
+
+explained below, Merge Sort, Quick Sort and Bucket Sort are the most commonly used in interviews,
+
+  
+
+Bubble Sort | Runtime: O(n?) average and worst case. Memory: O(1).
+In bubble sort, we start at the beginning of the array and swap the first two elements if the first is greater
+we go to the next pair, and so on, continuously making sweeps of the array until it is sorted. In doing so,
+
+  
+
+“bubble” up to the beginning of the list.
+
+Selection Sort | Runtime: O(n?) average and worst case. Memory: 0(1) .
+Selection sort is the child’s algorithm: simple, but inefficient. Find the smallest element using a linear scan and
+(swapping it with the front element). Then, find the second smallest and move it, again doing a linear scan. Conti
+
+ 
+ 
+
+until all the elements are in place.
+
+  
+  
+
+Merge Sort | Runtime: O(n log(n) ) average and worst case. Memory: Depends.
+
+Merge sort divides the array in half, sorts each of those halves, and then merges them back together. Each of th
+same sorting algorithm applied to it. Eventually, you are merging just two single-element arrays. It is the “merge'®
+all the heavy lifting.
+
+The merge method operates by copying all the elements from the target array segment into a helper array, I?
+where the start of the left and right halves should be (helperLeft and helperRight). We then iterate thro
+copying the smaller element from each half into the array. At the end, we copy any remaining elements into the tai"
+
+4 tit mandacnamelftmert
+
